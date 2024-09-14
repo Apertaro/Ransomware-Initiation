@@ -1,3 +1,3 @@
 # Ransomware-Initiation
-**School**
+**School purpose**
 Développement d'un ransomware basique
