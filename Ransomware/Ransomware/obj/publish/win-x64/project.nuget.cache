@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "Q2nJffso8zM=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mabur\\Desktop\\Cybersécurité\\Ransomware C#\\Ransomware-Initiation\\Ransomware\\Ransomware\\Ransomware.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mabur\\.nuget\\packages\\microsoft.net.illink.analyzers\\7.0.100-1.23401.1\\microsoft.net.illink.analyzers.7.0.100-1.23401.1.nupkg.sha512",
+    "C:\\Users\\mabur\\.nuget\\packages\\microsoft.net.illink.tasks\\7.0.100-1.23401.1\\microsoft.net.illink.tasks.7.0.100-1.23401.1.nupkg.sha512",
+    "C:\\Users\\mabur\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\6.0.33\\microsoft.netcore.app.runtime.win-x64.6.0.33.nupkg.sha512",
+    "C:\\Users\\mabur\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\6.0.33\\microsoft.windowsdesktop.app.runtime.win-x64.6.0.33.nupkg.sha512",
+    "C:\\Users\\mabur\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\6.0.33\\microsoft.aspnetcore.app.runtime.win-x64.6.0.33.nupkg.sha512"
+  ],
+  "logs": []
+}

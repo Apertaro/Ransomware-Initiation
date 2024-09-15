@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Ransomware")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e366c761ec828d4ec05926b4b1cc31b7e761b82b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Ransomware")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Ransomware")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

